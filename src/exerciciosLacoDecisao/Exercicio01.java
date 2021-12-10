@@ -20,14 +20,14 @@ public class Exercicio01
 		{
 			System.out.println("O primeiro valor é maior.");
 		}
-		if (n2>n1 || n2>n3);
+		if (n2>n1 && n2>n3)
 		{
 			System.out.println("O segundo valor é maior.");
-			else if (n3>n1 && n2>n3);
-			{
-				System.out.println("O segundo valor é maior.");
-			}
 		}
-		
+		if (n3>n1 || n2>n3)
+		{
+			System.out.println("O terceiro valor é maior.");
+		}
 	}
 }
+
