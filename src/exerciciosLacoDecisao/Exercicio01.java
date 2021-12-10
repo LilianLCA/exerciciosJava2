@@ -24,7 +24,7 @@ public class Exercicio01
 		{
 			System.out.println("O segundo valor é maior.");
 		}
-		if (n3>n1 || n2>n3)
+		if (n3>n1 && n3>n2)
 		{
 			System.out.println("O terceiro valor é maior.");
 		}
